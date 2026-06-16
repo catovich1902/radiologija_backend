@@ -11,3 +11,4 @@ if not User.objects.filter(username='admin').exists():
 else:
     print('Superuser vec postoji')
 "
+python manage.py generisi_termine
